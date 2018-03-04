@@ -1,0 +1,19 @@
+#rastgele seçim yapmak için
+
+import random
+
+#belirlediğimiz fonksiyonu ve değerleri giriyoruz
+#aynı şekilde ikinci bir değer kümesi yazılabilir "second_nums" gibi
+
+def generate_nums():
+    first_nums = ["0","1","2","3","4","5","6","7","8","9"]
+
+#kaç basamaklı olucaksa o kadar süslü parentez random.choice(değerlerin bulunduğu küme adı)
+    
+    return "{}{}{}".format (random.choice(first_nums),random.choice(first_nums),random.choice(first_nums))
+    
+#kaç adet sayı basmak istiyorsanız değeri değiştirin)
+
+for i in range (5):
+    print (generate_nums())
+    
