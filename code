@@ -17,3 +17,5 @@ def generate_nums():
 for i in range (5):
     print (generate_nums())
     
+    # github: kubilayucar, instagram: ucar_kubilay
+    
